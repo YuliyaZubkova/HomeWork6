@@ -54,7 +54,10 @@ int GetNumberFromConsole(string message)
     return result;
 }
 
-// Метод, который будет переворачивать массив (в C# есть метод Array.Reverse())
+// Метод, который будет переворачивать массив 
+//(в C# есть метод Array.Reverse())
+//Array.Reverse(resultArray)
+//PrintArray(resultArray)
 int [] ReverseArray(int[] array)
 {
     int[] result = new int[array.Length];
